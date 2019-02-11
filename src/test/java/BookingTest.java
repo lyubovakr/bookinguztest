@@ -25,6 +25,7 @@ public class BookingTest extends BaseTest {
 //        homePage.submit();
         homePage.getTrains().get(2).clickOnTitle();
         Thread.sleep(3000);
+        System.out.println("Hi");
     }
 
 }
